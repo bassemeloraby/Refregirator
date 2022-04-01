@@ -4,15 +4,37 @@ h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
+    text-transform: capitalize;
+}
+h3 {
+    text-transform: capitalize;
 }
 img {
     width: 200px;
     height: 200px;
-    background-color: black;
+    /* background-color: black; */
     border-width: 2px;
     border-style: solid;
 }
-
+label {
+    justify-self: center
+}
 .total_drug {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    border-style: groove;
+}
+
+div.pic_label {
     display: grid;
+}
+
+.container {
+    display: inline-flex;
+    flex-basis: max-content;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
 }
